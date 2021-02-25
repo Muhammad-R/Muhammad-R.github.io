@@ -1,6 +1,6 @@
 $(window).on("load",function(){
     
-        $(".loader").fadeOut(3500);
+        $(".loader").fadeOut(2500);
         $(".loader.inner").fadeOut(300)
         
     $(".items").isotope({
