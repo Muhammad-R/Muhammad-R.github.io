@@ -1,8 +1,8 @@
 $(window).on("load",function(){
-    
-        $(".loader").fadeOut(1500);
-        $(".loader.inner").fadeOut(300)
-        
+
+        $(".loader").fadeOut(3500);
+        $(".loader.inner").fadeOut(3500)
+
     $(".items").isotope({
         filter: '*',
         animationOptions:{
@@ -17,7 +17,7 @@ $(window).on("load",function(){
 
 });
 
-      
+
 
 
 $(document).ready(function(){
@@ -28,9 +28,9 @@ $(document).ready(function(){
         animation:'fade',
         play: 5000,
         pagination:false,
-    
+
     });
-      
+
     var typed = new Typed(".typed",{
         strings: ["Software Engineer","Hardware Engineer","Web Developer", "Student"],
         typeSpeed:70,
@@ -41,7 +41,7 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         items:5,
-        
+
         responsive:{
             0:{
                 items:1
@@ -58,14 +58,14 @@ $(document).ready(function(){
          }
     });
 
-    
+
 
 
     var skillsTopOffset = $(".skillsSection").offset().top;
-    
+
     $(window).scroll(function(){
         if (window.pageYOffset > skillsTopOffset - $(window).height()-+00){
-            
+
             $('.chart').easyPieChart({
                 easing:'easInOut',
                 barColor:'#fff',
@@ -82,13 +82,13 @@ $(document).ready(function(){
 
     $("[data-fancybox]").fancybox();
 
-   
+
     $("#filters a").click(function(){
         $("#filters .current").removeClass("current");
         $(this).addClass("current");
 
         var selector = $(this).attr("data-filter");
-        
+
         $(".items").isotope({
             filter: selector,
             animationOptions:{
@@ -136,9 +136,5 @@ $(document).ready(function(){
 
 
 	}
-  
-});
- 
- 
 
-    
+});
