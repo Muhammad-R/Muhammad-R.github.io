@@ -21,7 +21,7 @@ body{
     z-index: 6;
 }
 
-.slides-navigation .next,
+/* .slides-navigation .next,
 .slides-navigation .prev {
     width: 47px;
     height: 47px;
@@ -38,7 +38,7 @@ body{
         right: 10px;
         background-image: url(../img/icons8-forward-button-100\(1\).png);
 
-    }
+    } */
 
 .titleMessage{
     position: absolute;
