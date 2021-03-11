@@ -21,7 +21,10 @@ body{
     z-index: 6;
 }
 
-
+#wolf{
+    width: 80px;
+    height: 70px;
+}
 
 /* .slides-navigation .next,
 .slides-navigation .prev {
