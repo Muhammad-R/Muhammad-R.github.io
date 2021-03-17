@@ -110,11 +110,6 @@ left: -7px;
 
 }
 
-#ttt{
-  position: relative;
-  left:0px;
-}
-
 .chart{
     position:relative;
     width: 152px;
@@ -175,7 +170,7 @@ left: -7px;
 }
 
 .hint {
-  font-family: cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .filter a{
