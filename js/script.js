@@ -32,7 +32,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typed",{
-        strings: ["Software Engineer","Hardware Engineer","Web Developer", "Student"],
+        strings: ["Software Engineer", "Full stack Developer",  "Student"],
         typeSpeed:70,
         loop:true,
         startDelay:1000,
@@ -40,22 +40,22 @@ $(document).ready(function(){
     });
     $('.owl-carousel').owlCarousel({
         loop:true,
-        items:5,
-
+        margin:50,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
                 items:1
-            },
-            480:{
-                items:2
             },
             768:{
                 items:3
             },
             938:{
                 items:4
-            },
-         }
+            }
+        }
     });
 
 
